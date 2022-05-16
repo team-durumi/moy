@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - comment
+    - filter
+    - search
+    - system
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'search content'

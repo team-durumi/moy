@@ -1,0 +1,5 @@
+entity.project_type.collection:
+  title: 'Project types'
+  description: 'Manage project types.'
+  parent: system.admin_structure
+  route_name: entity.project_type.collection

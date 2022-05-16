@@ -1,0 +1,55 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.markdown
+  module:
+    - editor_md
+format: markdown
+editor: editor_md
+settings:
+  editorTheme: base16-light
+  height: 440px
+  mode: gfm
+  path: /libraries/editor.md/lib/
+  pluginPath: /libraries/editor.md/plugins/
+  previewTheme: default
+  theme: default
+  toolbar: true
+  toolbarAutoFixed: true
+  toolbarMode: full
+  toolbarIcons:
+    - bold
+    - italic
+    - quote
+    - '|'
+    - h2
+    - h3
+    - h4
+    - '|'
+    - list-ul
+    - list-ol
+    - hr
+    - '|'
+    - link
+    - reference-link
+    - image
+    - '|'
+    - code
+    - preformatted-text
+    - code-block
+    - '|'
+    - table
+    - datetime
+    - emoji
+    - html-entities
+    - '|'
+    - goto-line
+    - watch
+    - preview
+    - fullscreen
+    - clear
+    - search
+  watch: false
+  width: 100%
+image_upload: {  }

@@ -1,0 +1,23 @@
+{
+    "name": "team-durumi/moy",
+    "type": "drupal-custom-profile",
+    "description": "A drupal distribution profile for project issues management.",
+    "license": "MIT",
+    "keywords": ["Drupal"],
+    "require": {
+        "cweagans/composer-patches": "~1.0",
+        "drupal/editor_md": "^4.0",
+        "drupal/gin": "^3",
+        "drupal/gin_login": "^1",
+        "drupal/gin_toolbar": "^1",
+        "drupal/markdown": "^3.0.x-dev",
+        "league/commonmark": "^1.6"
+    },
+    "extra": {
+        "patches": {
+            "drupal/markdown": {
+                "https://www.drupal.org/project/markdown/issues/3265416": "https://git.drupalcode.org/project/markdown/-/merge_requests/17.patch"
+            }
+        }
+    }
+}

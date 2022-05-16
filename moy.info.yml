@@ -1,0 +1,52 @@
+name: Moy
+type: profile
+description: 'A drupal distribution profile for project issues management.'
+core_version_requirement: ^9 || ^10
+project: moy
+
+dependencies:
+  - drupal:gin_login
+  - drupal:gin_toolbar
+  - drupal:markdown
+  - drupal:editor_md
+  - moy:project
+
+install:
+  # core
+  - drupal:action
+  - drupal:tracker
+  - drupal:automated_cron
+  - drupal:big_pipe
+  - drupal:block
+  - drupal:comment
+  - drupal:config
+  - drupal:contextual
+  - drupal:menu_link_content
+  - drupal:field
+  - drupal:field_ui
+  - drupal:filter
+  - drupal:dynamic_page_cache
+  - drupal:page_cache
+  - drupal:media
+  - drupal:media_library
+  - drupal:menu_ui
+  - drupal:node
+  - drupal:path
+  - drupal:quickedit
+  - drupal:rdf
+  - drupal:search
+  - drupal:shortcut
+  - drupal:system
+  - drupal:taxonomy
+  - drupal:editor
+  - drupal:toolbar
+  - drupal:user
+  - drupal:views
+  - drupal:views_ui
+
+themes:
+  - gin
+
+distribution:
+  name: Moy
+  langcode: ko
