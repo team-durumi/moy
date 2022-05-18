@@ -21,6 +21,7 @@ install:
   - drupal:comment
   - drupal:config
   - drupal:contextual
+  - drupal:dblog
   - drupal:menu_link_content
   - drupal:field
   - drupal:field_ui

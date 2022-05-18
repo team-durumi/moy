@@ -98,8 +98,8 @@ class Project extends ContentEntityBase implements ProjectInterface {
       ])
       ->setDisplayConfigurable('view', TRUE);
 
-    # 기계명 machine_name (machine_readable:gh,path_alias)
-    # https://www.drupal.org/node/3028311
+    // 기계명 machine_name (machine_readable:gh,path_alias)
+    // https://www.drupal.org/node/3028311
     $fields['machine_name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Machine name'))
       ->setDescription(t('The machine name.'))

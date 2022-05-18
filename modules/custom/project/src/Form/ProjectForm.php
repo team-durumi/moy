@@ -42,7 +42,7 @@ class ProjectForm extends ContentEntityForm {
         $slug = Html::getClass($machine_name);
         $path_alias = \Drupal::entityTypeManager()->getStorage('path_alias')->create([
           'path' => '/project/' . $entity->id(),
-          'alias' => '/project/' . $slug,
+          'alias' => '/' . $slug,
           'langcode' => Language::LANGCODE_NOT_SPECIFIED,
         ]);
         $path_alias->save();
